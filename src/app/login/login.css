@@ -1,0 +1,22 @@
+#submit-text {
+    height: 3.8rem;
+    font-size: 1.5rem;
+    color: #000;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    #submit-text {
+        height: 3.2rem;
+    }
+}
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    border: 2px solid #7C77B3;
+    -webkit-text-fill-color: #27A68E ;
+    -webkit-box-shadow: 0 0 0px 1000px #06032c inset;
+}
