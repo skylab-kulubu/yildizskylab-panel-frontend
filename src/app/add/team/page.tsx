@@ -4,6 +4,7 @@ import { addTeamValidations } from "@/utils/validations";
 import { useFormik } from "formik";
 import React, { useState } from "react";
 import { useSession } from "next-auth/react";
+import axios from 'axios';
 
 const Page = () => {
     const { data: session } = useSession();
@@ -25,22 +26,26 @@ const Page = () => {
         description: string,
         photoURL: string
     ) {
-        const res = await fetch(process.env.BACKEND_URL + "/teams", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                Authorization: `Bearer ${session?.user}`,
-            },
-            body: JSON.stringify({
-                teamName,
-                description,
-            }),
-        });
-
-        const result = await res.json();
-        console.log(result);
+        try {
+            const response = await axios.post(
+                'https://yildizskylab-test.onrender.com/api/v1/teams/',
+                {
+                    teamName,
+                    description,
+                    
+                },
+                {
+                    headers: {
+                        'Content-Type': 'application/json',
+                        //Authorization: `Bearer ${session?.user}`, // session?.user yerine uygun bir şekilde kullanılmalı
+                    },
+                }
+            );
+            console.log(response.data);
+        } catch (error) {
+            console.error('Error adding team:', error);
+        }
     }
-
     return (
         <>
             <form

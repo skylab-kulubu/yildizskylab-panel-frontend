@@ -1,1 +1,846 @@
-{"__ssr_module_mapping__":{"243":{"":{"id":"9031","name":"","chunks":["299:299-18506064db4e2603","316:316-a450e3cc46dc6174","607:app/members/page-c78548666db886ef"],"async":false},"*":{"id":"9031","name":"*","chunks":["299:299-18506064db4e2603","316:316-a450e3cc46dc6174","607:app/members/page-c78548666db886ef"],"async":false},"default":{"id":"9031","name":"default","chunks":["299:299-18506064db4e2603","316:316-a450e3cc46dc6174","607:app/members/page-c78548666db886ef"],"async":false}},"265":{"":{"id":"6351","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","895:app/projects/page-c6c9ca0769e5f22c"],"async":false},"*":{"id":"6351","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","895:app/projects/page-c6c9ca0769e5f22c"],"async":false},"default":{"id":"6351","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","895:app/projects/page-c6c9ca0769e5f22c"],"async":false}},"919":{"":{"id":"736","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false},"*":{"id":"736","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false},"default":{"id":"736","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false}},"1272":{"":{"id":"2935","name":"","chunks":["57:814c6784-c98b331203a4a746","874:1a48c3c1-bc5cb6d4db9fff2f","617:d7eeaac4-e8594176f9737f89","299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","185:app/layout-50f195f2e8b547af"],"async":false},"*":{"id":"2935","name":"*","chunks":["57:814c6784-c98b331203a4a746","874:1a48c3c1-bc5cb6d4db9fff2f","617:d7eeaac4-e8594176f9737f89","299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","185:app/layout-50f195f2e8b547af"],"async":false},"default":{"id":"2935","name":"default","chunks":["57:814c6784-c98b331203a4a746","874:1a48c3c1-bc5cb6d4db9fff2f","617:d7eeaac4-e8594176f9737f89","299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","185:app/layout-50f195f2e8b547af"],"async":false}},"1719":{"":{"id":"6570","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","3:3-48ab4317ca9041f8","56:app/teams/[teamId]/page-b8acd199b14838ab"],"async":false},"*":{"id":"6570","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","3:3-48ab4317ca9041f8","56:app/teams/[teamId]/page-b8acd199b14838ab"],"async":false},"default":{"id":"6570","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","3:3-48ab4317ca9041f8","56:app/teams/[teamId]/page-b8acd199b14838ab"],"async":false}},"1967":{"":{"id":"1102","name":"","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","477:app/add/team/page-688954519b525599"],"async":false},"*":{"id":"1102","name":"*","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","477:app/add/team/page-688954519b525599"],"async":false},"default":{"id":"1102","name":"default","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","477:app/add/team/page-688954519b525599"],"async":false}},"2092":{"":{"id":"6862","name":"","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"*":{"id":"6862","name":"*","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"default":{"id":"6862","name":"default","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false}},"2149":{"":{"id":"5680","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false},"*":{"id":"5680","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false},"default":{"id":"5680","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false}},"2511":{"":{"id":"7978","name":"","chunks":["310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","459:app/applications/[applicationId]/page-7e8680c4c79b2af6"],"async":false},"*":{"id":"7978","name":"*","chunks":["310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","459:app/applications/[applicationId]/page-7e8680c4c79b2af6"],"async":false},"default":{"id":"7978","name":"default","chunks":["310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","459:app/applications/[applicationId]/page-7e8680c4c79b2af6"],"async":false}},"2545":{"":{"id":"7081","name":"","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","393:app/add/event/page-22b36629ae9bbeb8"],"async":false},"*":{"id":"7081","name":"*","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","393:app/add/event/page-22b36629ae9bbeb8"],"async":false},"default":{"id":"7081","name":"default","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","393:app/add/event/page-22b36629ae9bbeb8"],"async":false}},"3629":{"":{"id":"7155","name":"","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","572:app/add/project/page-27c1181c36109014"],"async":false},"*":{"id":"7155","name":"*","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","572:app/add/project/page-27c1181c36109014"],"async":false},"default":{"id":"7155","name":"default","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","572:app/add/project/page-27c1181c36109014"],"async":false}},"4090":{"":{"id":"7655","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false},"*":{"id":"7655","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false},"default":{"id":"7655","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false}},"5428":{"":{"id":"2604","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","11:app/register/page-4a5f5534dc33e98d"],"async":false},"*":{"id":"2604","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","11:app/register/page-4a5f5534dc33e98d"],"async":false},"default":{"id":"2604","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","11:app/register/page-4a5f5534dc33e98d"],"async":false}},"6168":{"":{"id":"6764","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","11:app/register/page-4a5f5534dc33e98d"],"async":false},"*":{"id":"6764","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","11:app/register/page-4a5f5534dc33e98d"],"async":false},"default":{"id":"6764","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","11:app/register/page-4a5f5534dc33e98d"],"async":false}},"6245":{"":{"id":"9468","name":"","chunks":["299:299-18506064db4e2603","3:3-48ab4317ca9041f8","373:app/events/[eventId]/page-c463b25a729cfe16"],"async":false},"*":{"id":"9468","name":"*","chunks":["299:299-18506064db4e2603","3:3-48ab4317ca9041f8","373:app/events/[eventId]/page-c463b25a729cfe16"],"async":false},"default":{"id":"9468","name":"default","chunks":["299:299-18506064db4e2603","3:3-48ab4317ca9041f8","373:app/events/[eventId]/page-c463b25a729cfe16"],"async":false}},"6963":{"":{"id":"5066","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","626:app/login/page-d699043ab8536a30"],"async":false},"*":{"id":"5066","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","626:app/login/page-d699043ab8536a30"],"async":false},"default":{"id":"5066","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","626:app/login/page-d699043ab8536a30"],"async":false}},"7043":{"":{"id":"2030","name":"","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"*":{"id":"2030","name":"*","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"default":{"id":"2030","name":"default","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false}},"7528":{"":{"id":"6024","name":"","chunks":["299:299-18506064db4e2603","931:app/page-430e79fe83eca269"],"async":false},"*":{"id":"6024","name":"*","chunks":["299:299-18506064db4e2603","931:app/page-430e79fe83eca269"],"async":false},"default":{"id":"6024","name":"default","chunks":["299:299-18506064db4e2603","931:app/page-430e79fe83eca269"],"async":false}},"7907":{"":{"id":"2330","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","38:app/events/page-ee911956ba2bec9e"],"async":false},"*":{"id":"2330","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","38:app/events/page-ee911956ba2bec9e"],"async":false},"default":{"id":"2330","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","38:app/events/page-ee911956ba2bec9e"],"async":false}},"7954":{"":{"id":"9446","name":"","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"*":{"id":"9446","name":"*","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"default":{"id":"9446","name":"default","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false}},"8515":{"":{"id":"4535","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","3:3-48ab4317ca9041f8","110:app/projects/[projectId]/page-a9e6dfa2906c8884"],"async":false},"*":{"id":"4535","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","3:3-48ab4317ca9041f8","110:app/projects/[projectId]/page-a9e6dfa2906c8884"],"async":false},"default":{"id":"4535","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","3:3-48ab4317ca9041f8","110:app/projects/[projectId]/page-a9e6dfa2906c8884"],"async":false}},"9183":{"":{"id":"8371","name":"","chunks":["299:299-18506064db4e2603","734:734-cb637e47732103c7","3:3-48ab4317ca9041f8","207:app/members/[memberId]/page-0168f04cf251151c"],"async":false},"*":{"id":"8371","name":"*","chunks":["299:299-18506064db4e2603","734:734-cb637e47732103c7","3:3-48ab4317ca9041f8","207:app/members/[memberId]/page-0168f04cf251151c"],"async":false},"default":{"id":"8371","name":"default","chunks":["299:299-18506064db4e2603","734:734-cb637e47732103c7","3:3-48ab4317ca9041f8","207:app/members/[memberId]/page-0168f04cf251151c"],"async":false}},"9356":{"":{"id":"6316","name":"","chunks":["310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","383:app/apply_team/page-067fd4707fd4578c"],"async":false},"*":{"id":"6316","name":"*","chunks":["310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","383:app/apply_team/page-067fd4707fd4578c"],"async":false},"default":{"id":"6316","name":"default","chunks":["310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","383:app/apply_team/page-067fd4707fd4578c"],"async":false}},"9527":{"":{"id":"6498","name":"","chunks":["442:app/applications/page-292b7b1cf36d53ce"],"async":false},"*":{"id":"6498","name":"*","chunks":["442:app/applications/page-292b7b1cf36d53ce"],"async":false},"default":{"id":"6498","name":"default","chunks":["442:app/applications/page-292b7b1cf36d53ce"],"async":false}},"9875":{"":{"id":"3258","name":"","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"*":{"id":"3258","name":"*","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"default":{"id":"3258","name":"default","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false}}},"__edge_ssr_module_mapping__":{},"__entry_css_files__":{"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\layout":["static/css/918c810868311ec1.css","static/css/ef46db3751d8e999.css"],"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\login\\page":["static/css/3db2c5767413a899.css"],"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\members\\page":["static/css/88de8631531e0a9b.css"],"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\events\\page":["static/css/88de8631531e0a9b.css"],"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\projects\\page":["static/css/88de8631531e0a9b.css"],"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\register\\page":["static/css/582a56cef5eb752d.css"],"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\teams\\page":["static/css/2b9df15f1feb066c.css"],"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\dashboard\\page":["static/css/88de8631531e0a9b.css"],"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\apply\\page":["static/css/88de8631531e0a9b.css"],"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\add\\page":["static/css/88de8631531e0a9b.css"],"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\applications\\page":["static/css/88de8631531e0a9b.css"]},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\node_modules\\next\\dist\\client\\components\\app-router.js":{"":{"id":"7954","name":"","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"*":{"id":"7954","name":"*","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"default":{"id":"7954","name":"default","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\node_modules\\next\\dist\\client\\components\\error-boundary.js":{"":{"id":"7043","name":"","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"*":{"id":"7043","name":"*","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"default":{"id":"7043","name":"default","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\node_modules\\next\\dist\\client\\components\\layout-router.js":{"":{"id":"9875","name":"","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"*":{"id":"9875","name":"*","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"default":{"id":"9875","name":"default","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js":{"":{"id":"2092","name":"","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"*":{"id":"2092","name":"*","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false},"default":{"id":"2092","name":"default","chunks":["272:webpack-27a68c8d320c1bba","17:17-f52405e4b2094548","744:main-app-813e1a8ad2b3b7d8"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\add\\event\\page.tsx":{"":{"id":"2545","name":"","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","393:app/add/event/page-22b36629ae9bbeb8"],"async":false},"*":{"id":"2545","name":"*","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","393:app/add/event/page-22b36629ae9bbeb8"],"async":false},"default":{"id":"2545","name":"default","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","393:app/add/event/page-22b36629ae9bbeb8"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\node_modules\\next\\dist\\client\\link.js":{"":{"id":"4090","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false},"*":{"id":"4090","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false},"default":{"id":"4090","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\ui\\GlobalNav\\GlobalNav.modules.css":{"default":{"id":"7391","name":"default","chunks":["static/css/ef46db3751d8e999.css"]}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\providers.tsx":{"":{"id":"1272","name":"","chunks":["57:814c6784-c98b331203a4a746","874:1a48c3c1-bc5cb6d4db9fff2f","617:d7eeaac4-e8594176f9737f89","299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","185:app/layout-50f195f2e8b547af"],"async":false},"*":{"id":"1272","name":"*","chunks":["57:814c6784-c98b331203a4a746","874:1a48c3c1-bc5cb6d4db9fff2f","617:d7eeaac4-e8594176f9737f89","299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","185:app/layout-50f195f2e8b547af"],"async":false},"default":{"id":"1272","name":"default","chunks":["57:814c6784-c98b331203a4a746","874:1a48c3c1-bc5cb6d4db9fff2f","617:d7eeaac4-e8594176f9737f89","299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","185:app/layout-50f195f2e8b547af"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\assets\\images\\logo_text.png":{"":{"id":"1272","name":"","chunks":["57:814c6784-c98b331203a4a746","874:1a48c3c1-bc5cb6d4db9fff2f","617:d7eeaac4-e8594176f9737f89","299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","185:app/layout-50f195f2e8b547af"],"async":false},"*":{"id":"1272","name":"*","chunks":["57:814c6784-c98b331203a4a746","874:1a48c3c1-bc5cb6d4db9fff2f","617:d7eeaac4-e8594176f9737f89","299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","185:app/layout-50f195f2e8b547af"],"async":false},"default":{"id":"1272","name":"default","chunks":["57:814c6784-c98b331203a4a746","874:1a48c3c1-bc5cb6d4db9fff2f","617:d7eeaac4-e8594176f9737f89","299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","185:app/layout-50f195f2e8b547af"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\assets\\images\\ytu_yazi_logo.png":{"":{"id":"1272","name":"","chunks":["57:814c6784-c98b331203a4a746","874:1a48c3c1-bc5cb6d4db9fff2f","617:d7eeaac4-e8594176f9737f89","299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","185:app/layout-50f195f2e8b547af"],"async":false},"*":{"id":"1272","name":"*","chunks":["57:814c6784-c98b331203a4a746","874:1a48c3c1-bc5cb6d4db9fff2f","617:d7eeaac4-e8594176f9737f89","299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","185:app/layout-50f195f2e8b547af"],"async":false},"default":{"id":"1272","name":"default","chunks":["57:814c6784-c98b331203a4a746","874:1a48c3c1-bc5cb6d4db9fff2f","617:d7eeaac4-e8594176f9737f89","299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","185:app/layout-50f195f2e8b547af"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\add\\project\\page.tsx":{"":{"id":"3629","name":"","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","572:app/add/project/page-27c1181c36109014"],"async":false},"*":{"id":"3629","name":"*","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","572:app/add/project/page-27c1181c36109014"],"async":false},"default":{"id":"3629","name":"default","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","572:app/add/project/page-27c1181c36109014"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\add\\team\\page.tsx":{"":{"id":"1967","name":"","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","477:app/add/team/page-688954519b525599"],"async":false},"*":{"id":"1967","name":"*","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","477:app/add/team/page-688954519b525599"],"async":false},"default":{"id":"1967","name":"default","chunks":["299:299-18506064db4e2603","310:310-fe99fba0da55de37","175:175-9e98be6244353399","477:app/add/team/page-688954519b525599"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\assets\\images\\pink_logo.png":{"":{"id":"2149","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false},"*":{"id":"2149","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false},"default":{"id":"2149","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\applications\\[applicationId]\\page.tsx":{"":{"id":"2511","name":"","chunks":["310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","459:app/applications/[applicationId]/page-7e8680c4c79b2af6"],"async":false},"*":{"id":"2511","name":"*","chunks":["310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","459:app/applications/[applicationId]/page-7e8680c4c79b2af6"],"async":false},"default":{"id":"2511","name":"default","chunks":["310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","459:app/applications/[applicationId]/page-7e8680c4c79b2af6"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\ui\\ApplicationTable\\ApplicationTable.tsx":{"":{"id":"9527","name":"","chunks":["442:app/applications/page-292b7b1cf36d53ce"],"async":false},"*":{"id":"9527","name":"*","chunks":["442:app/applications/page-292b7b1cf36d53ce"],"async":false},"default":{"id":"9527","name":"default","chunks":["442:app/applications/page-292b7b1cf36d53ce"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\apply_team\\page.tsx":{"":{"id":"9356","name":"","chunks":["310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","383:app/apply_team/page-067fd4707fd4578c"],"async":false},"*":{"id":"9356","name":"*","chunks":["310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","383:app/apply_team/page-067fd4707fd4578c"],"async":false},"default":{"id":"9356","name":"default","chunks":["310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","383:app/apply_team/page-067fd4707fd4578c"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\events\\[eventId]\\page.tsx":{"":{"id":"6245","name":"","chunks":["299:299-18506064db4e2603","3:3-48ab4317ca9041f8","373:app/events/[eventId]/page-c463b25a729cfe16"],"async":false},"*":{"id":"6245","name":"*","chunks":["299:299-18506064db4e2603","3:3-48ab4317ca9041f8","373:app/events/[eventId]/page-c463b25a729cfe16"],"async":false},"default":{"id":"6245","name":"default","chunks":["299:299-18506064db4e2603","3:3-48ab4317ca9041f8","373:app/events/[eventId]/page-c463b25a729cfe16"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\login\\login.css":{"default":{"id":"7194","name":"default","chunks":["static/css/3db2c5767413a899.css"]}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\assets\\images\\logo.png":{"":{"id":"6168","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","11:app/register/page-4a5f5534dc33e98d"],"async":false},"*":{"id":"6168","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","11:app/register/page-4a5f5534dc33e98d"],"async":false},"default":{"id":"6168","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","11:app/register/page-4a5f5534dc33e98d"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\login\\page.tsx":{"":{"id":"6963","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","626:app/login/page-d699043ab8536a30"],"async":false},"*":{"id":"6963","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","626:app/login/page-d699043ab8536a30"],"async":false},"default":{"id":"6963","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","626:app/login/page-d699043ab8536a30"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\members\\[memberId]\\page.tsx":{"":{"id":"9183","name":"","chunks":["299:299-18506064db4e2603","734:734-cb637e47732103c7","3:3-48ab4317ca9041f8","207:app/members/[memberId]/page-0168f04cf251151c"],"async":false},"*":{"id":"9183","name":"*","chunks":["299:299-18506064db4e2603","734:734-cb637e47732103c7","3:3-48ab4317ca9041f8","207:app/members/[memberId]/page-0168f04cf251151c"],"async":false},"default":{"id":"9183","name":"default","chunks":["299:299-18506064db4e2603","734:734-cb637e47732103c7","3:3-48ab4317ca9041f8","207:app/members/[memberId]/page-0168f04cf251151c"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\ui\\PageTitle\\PageTitle.css":{"default":{"id":"1082","name":"default","chunks":["static/css/88de8631531e0a9b.css","static/css/2b9df15f1feb066c.css"]}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\members\\page.tsx":{"":{"id":"243","name":"","chunks":["299:299-18506064db4e2603","316:316-a450e3cc46dc6174","607:app/members/page-c78548666db886ef"],"async":false},"*":{"id":"243","name":"*","chunks":["299:299-18506064db4e2603","316:316-a450e3cc46dc6174","607:app/members/page-c78548666db886ef"],"async":false},"default":{"id":"243","name":"default","chunks":["299:299-18506064db4e2603","316:316-a450e3cc46dc6174","607:app/members/page-c78548666db886ef"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\events\\page.tsx":{"":{"id":"7907","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","38:app/events/page-ee911956ba2bec9e"],"async":false},"*":{"id":"7907","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","38:app/events/page-ee911956ba2bec9e"],"async":false},"default":{"id":"7907","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","38:app/events/page-ee911956ba2bec9e"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\projects\\page.tsx":{"":{"id":"265","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","895:app/projects/page-c6c9ca0769e5f22c"],"async":false},"*":{"id":"265","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","895:app/projects/page-c6c9ca0769e5f22c"],"async":false},"default":{"id":"265","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","895:app/projects/page-c6c9ca0769e5f22c"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\page.tsx":{"":{"id":"7528","name":"","chunks":["299:299-18506064db4e2603","931:app/page-430e79fe83eca269"],"async":false},"*":{"id":"7528","name":"*","chunks":["299:299-18506064db4e2603","931:app/page-430e79fe83eca269"],"async":false},"default":{"id":"7528","name":"default","chunks":["299:299-18506064db4e2603","931:app/page-430e79fe83eca269"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\projects\\[projectId]\\page.tsx":{"":{"id":"8515","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","3:3-48ab4317ca9041f8","110:app/projects/[projectId]/page-a9e6dfa2906c8884"],"async":false},"*":{"id":"8515","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","3:3-48ab4317ca9041f8","110:app/projects/[projectId]/page-a9e6dfa2906c8884"],"async":false},"default":{"id":"8515","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","3:3-48ab4317ca9041f8","110:app/projects/[projectId]/page-a9e6dfa2906c8884"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\register\\register.css":{"default":{"id":"8324","name":"default","chunks":["static/css/582a56cef5eb752d.css"]}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\register\\page.tsx":{"":{"id":"5428","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","11:app/register/page-4a5f5534dc33e98d"],"async":false},"*":{"id":"5428","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","11:app/register/page-4a5f5534dc33e98d"],"async":false},"default":{"id":"5428","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","310:310-fe99fba0da55de37","675:675-9d696d583a1e44c7","175:175-9e98be6244353399","11:app/register/page-4a5f5534dc33e98d"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\teams\\[teamId]\\page.tsx":{"":{"id":"1719","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","3:3-48ab4317ca9041f8","56:app/teams/[teamId]/page-b8acd199b14838ab"],"async":false},"*":{"id":"1719","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","3:3-48ab4317ca9041f8","56:app/teams/[teamId]/page-b8acd199b14838ab"],"async":false},"default":{"id":"1719","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","3:3-48ab4317ca9041f8","56:app/teams/[teamId]/page-b8acd199b14838ab"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\ui\\TeamGridItem\\TeamGridItem.modules.css":{"default":{"id":"4628","name":"default","chunks":["static/css/2b9df15f1feb066c.css"]}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\teams\\page.tsx":{"":{"id":"919","name":"","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false},"*":{"id":"919","name":"*","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false},"default":{"id":"919","name":"default","chunks":["299:299-18506064db4e2603","90:90-19487e4edb4cc452","675:675-9d696d583a1e44c7","619:app/teams/page-450288b228b2fda7"],"async":false}},"C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\globals.css":{"default":{"id":"5513","name":"default","chunks":["static/css/918c810868311ec1.css"]}}}
+{
+  "__ssr_module_mapping__": {
+    "(app-client)/./src/app/page.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/images/logo_text.png": {
+      "": {
+        "id": "(sc_client)/./src/assets/images/logo_text.png",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/assets/images/logo_text.png",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/assets/images/logo_text.png",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/images/ytu_yazi_logo.png": {
+      "": {
+        "id": "(sc_client)/./src/assets/images/ytu_yazi_logo.png",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/assets/images/ytu_yazi_logo.png",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/assets/images/ytu_yazi_logo.png",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/projects/page:app/projects/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/projects/page:app/projects/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/projects/page:app/projects/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/providers.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/providers.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/providers.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/providers.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/events/page.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/events/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/events/page:app/events/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/events/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/events/page:app/events/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/events/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/events/page:app/events/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/members/page.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/members/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/members/page:app/members/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/members/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/members/page:app/members/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/members/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/members/page:app/members/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/assets/images/pink_logo.png": {
+      "": {
+        "id": "(sc_client)/./src/assets/images/pink_logo.png",
+        "name": "",
+        "chunks": [
+          "app/teams/page:app/teams/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/assets/images/pink_logo.png",
+        "name": "*",
+        "chunks": [
+          "app/teams/page:app/teams/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/assets/images/pink_logo.png",
+        "name": "default",
+        "chunks": [
+          "app/teams/page:app/teams/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/teams/page.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/teams/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/teams/page:app/teams/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/teams/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/teams/page:app/teams/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/teams/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/teams/page:app/teams/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/projects/page.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/projects/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/projects/page:app/projects/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/projects/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/projects/page:app/projects/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/projects/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/projects/page:app/projects/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/add/team/page.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/add/team/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/add/team/page:app/add/team/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/add/team/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/add/team/page:app/add/team/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/add/team/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/add/team/page:app/add/team/page"
+        ],
+        "async": false
+      }
+    }
+  },
+  "__edge_ssr_module_mapping__": {},
+  "__entry_css_files__": {
+    "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\layout": [
+      "static/css/_app-client_src_app_globals_css.css",
+      "static/css/app/layout.css"
+    ],
+    "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\events\\page": [
+      "static/css/app/events/page.css"
+    ],
+    "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\members\\page": [
+      "static/css/app/members/page.css"
+    ],
+    "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\teams\\page": [
+      "static/css/app/teams/page.css"
+    ],
+    "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\projects\\page": [
+      "static/css/app/projects/page.css"
+    ],
+    "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\add\\page": [
+      "static/css/_app-client_src_ui_PageTitle_PageTitle_css.css"
+    ]
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\ui\\GlobalNav\\GlobalNav.modules.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\assets\\images\\logo_text.png": {
+    "": {
+      "id": "(app-client)/./src/assets/images/logo_text.png",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/assets/images/logo_text.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/assets/images/logo_text.png",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\assets\\images\\ytu_yazi_logo.png": {
+    "": {
+      "id": "(app-client)/./src/assets/images/ytu_yazi_logo.png",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/assets/images/ytu_yazi_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/assets/images/ytu_yazi_logo.png",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\node_modules\\next\\dist\\client\\link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/projects/page:app/projects/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/projects/page:app/projects/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/projects/page:app/projects/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\providers.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/providers.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/providers.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/providers.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\ui\\PageTitle\\PageTitle.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/events/page.css",
+        "static/css/app/members/page.css",
+        "static/css/app/teams/page.css",
+        "static/css/app/projects/page.css",
+        "static/css/_app-client_src_ui_PageTitle_PageTitle_css.css"
+      ]
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\events\\page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/events/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/events/page:app/events/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/events/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/events/page:app/events/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/events/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/events/page:app/events/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\members\\page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/members/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/members/page:app/members/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/members/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/members/page:app/members/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/members/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/members/page:app/members/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\ui\\TeamGridItem\\TeamGridItem.modules.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/teams/page.css"
+      ]
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\assets\\images\\pink_logo.png": {
+    "": {
+      "id": "(app-client)/./src/assets/images/pink_logo.png",
+      "name": "",
+      "chunks": [
+        "app/teams/page:app/teams/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/assets/images/pink_logo.png",
+      "name": "*",
+      "chunks": [
+        "app/teams/page:app/teams/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/assets/images/pink_logo.png",
+      "name": "default",
+      "chunks": [
+        "app/teams/page:app/teams/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\teams\\page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/teams/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/teams/page:app/teams/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/teams/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/teams/page:app/teams/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/teams/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/teams/page:app/teams/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\projects\\page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/projects/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/projects/page:app/projects/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/projects/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/projects/page:app/projects/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/projects/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/projects/page:app/projects/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\add\\team\\page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/add/team/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/add/team/page:app/add/team/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/add/team/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/add/team/page:app/add/team/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/add/team/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/add/team/page:app/add/team/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\globals.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_src_app_globals_css.css"
+      ]
+    }
+  }
+}

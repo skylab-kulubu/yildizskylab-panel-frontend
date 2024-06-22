@@ -10,7 +10,7 @@ const Page = ({ params }: { params: { eventId: string } }) => {
     const { data: session } = useSession();
     const [event, setEvent] = useState<Event>();
 
-    useEffect(() => {
+     useEffect(() => {
         const res = fetch(
             process.env.BACKEND_URL + "/events/" + params.eventId,
             {

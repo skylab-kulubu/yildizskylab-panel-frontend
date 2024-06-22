@@ -1,105 +1,45 @@
 "use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 748;
-exports.ids = [748];
+exports.id = "pages/api/auth/[...nextauth]";
+exports.ids = ["pages/api/auth/[...nextauth]"];
 exports.modules = {
 
-/***/ 5996:
+/***/ "next-auth":
+/*!****************************!*\
+  !*** external "next-auth" ***!
+  \****************************/
+/***/ ((module) => {
+
+module.exports = require("next-auth");
+
+/***/ }),
+
+/***/ "next-auth/providers/credentials":
+/*!**************************************************!*\
+  !*** external "next-auth/providers/credentials" ***!
+  \**************************************************/
+/***/ ((module) => {
+
+module.exports = require("next-auth/providers/credentials");
+
+/***/ }),
+
+/***/ "(api)/./src/pages/api/auth/[...nextauth].tsx":
+/*!**********************************************!*\
+  !*** ./src/pages/api/auth/[...nextauth].tsx ***!
+  \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "authOptions": () => (/* binding */ authOptions),
-  "default": () => (/* binding */ _nextauth_)
-});
-
-;// CONCATENATED MODULE: external "next-auth"
-const external_next_auth_namespaceObject = require("next-auth");
-var external_next_auth_default = /*#__PURE__*/__webpack_require__.n(external_next_auth_namespaceObject);
-;// CONCATENATED MODULE: external "next-auth/providers/credentials"
-const credentials_namespaceObject = require("next-auth/providers/credentials");
-var credentials_default = /*#__PURE__*/__webpack_require__.n(credentials_namespaceObject);
-;// CONCATENATED MODULE: ./src/pages/api/auth/[...nextauth].tsx
-
-
-const authOptions = {
-    providers: [
-        credentials_default()({
-            type: "credentials",
-            name: "Credentials",
-            credentials: {},
-            async authorize (credentials, req) {
-                const { email , password  } = credentials;
-                // adminUser
-                // if (process.env.NEXTAUTH_SECRET === "asdasd") {
-                //     if (
-                //         email !== "admin@admin.com" ||
-                //         password !== "adminadmin"
-                //     )
-                //         return null;
-                //     const userDummy = {
-                //         id: "1",
-                //         name: "dogu",
-                //         email: email,
-                //         password: password,
-                //         team: "WEBLAB",
-                //     };
-                //     return userDummy;
-                // }
-                // login url from .env
-                const res = await fetch(process.env.BACKEND_URL + "/auth/login", {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify({
-                        email,
-                        password
-                    })
-                });
-                if (res.status !== 201) return null;
-                const { token  } = await res.json();
-                const userData = await fetch(process.env.BACKEND_URL + "/users", {
-                    method: "GET",
-                    headers: {
-                        "Content-Type": "application/json",
-                        Authorization: `Bearer ${token}`
-                    }
-                });
-                if (userData.status !== 200) return null;
-                const user = await userData.json();
-                user.accessToken = token;
-                if (res.ok && user) {
-                    return user;
-                } else return null;
-            }
-        })
-    ],
-    session: {
-        strategy: "jwt"
-    },
-    pages: {
-        signIn: "/login"
-    },
-    callbacks: {
-        async jwt ({ token , user  }) {
-            return {
-                ...token,
-                ...user
-            };
-        },
-        async session ({ session , user , token  }) {
-            session.user = token;
-            return session;
-        }
-    }
-};
-/* harmony default export */ const _nextauth_ = (external_next_auth_default()(authOptions));
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"authOptions\": () => (/* binding */ authOptions),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var next_auth__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next-auth */ \"next-auth\");\n/* harmony import */ var next_auth__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_auth__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_auth_providers_credentials__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next-auth/providers/credentials */ \"next-auth/providers/credentials\");\n/* harmony import */ var next_auth_providers_credentials__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_auth_providers_credentials__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst authOptions = {\n    providers: [\n        next_auth_providers_credentials__WEBPACK_IMPORTED_MODULE_1___default()({\n            type: \"credentials\",\n            name: \"Credentials\",\n            credentials: {},\n            async authorize (credentials, req) {\n                const { email , password  } = credentials;\n                // adminUser\n                // if (process.env.NEXTAUTH_SECRET === \"asdasd\") {\n                //     if (\n                //         email !== \"admin@admin.com\" ||\n                //         password !== \"adminadmin\"\n                //     )\n                //         return null;\n                //     const userDummy = {\n                //         id: \"1\",\n                //         name: \"dogu\",\n                //         email: email,\n                //         password: password,\n                //         team: \"WEBLAB\",\n                //     };\n                //     return userDummy;\n                // }\n                // login url from .env\n                const res = await fetch(\"https://yildizskylab-test.onrender.com/api/v1\" + \"/auth/login\", {\n                    method: \"POST\",\n                    headers: {\n                        \"Content-Type\": \"application/json\"\n                    },\n                    body: JSON.stringify({\n                        email,\n                        password\n                    })\n                });\n                if (res.status !== 201) return null;\n                const { token  } = await res.json();\n                const userData = await fetch(\"https://yildizskylab-test.onrender.com/api/v1\" + \"/users\", {\n                    method: \"GET\",\n                    headers: {\n                        \"Content-Type\": \"application/json\",\n                        Authorization: `Bearer ${token}`\n                    }\n                });\n                if (userData.status !== 200) return null;\n                const user = await userData.json();\n                user.accessToken = token;\n                if (res.ok && user) {\n                    return user;\n                } else return null;\n            }\n        })\n    ],\n    session: {\n        strategy: \"jwt\"\n    },\n    pages: {\n        signIn: \"/login\"\n    },\n    callbacks: {\n        async jwt ({ token , user  }) {\n            return {\n                ...token,\n                ...user\n            };\n        },\n        async session ({ session , user , token  }) {\n            session.user = token;\n            return session;\n        }\n    }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (next_auth__WEBPACK_IMPORTED_MODULE_0___default()(authOptions));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9zcmMvcGFnZXMvYXBpL2F1dGgvWy4uLm5leHRhdXRoXS50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQXVEO0FBQ1c7QUFFM0QsTUFBTUUsY0FBK0I7SUFDMUNDLFdBQVc7UUFDVEYsc0VBQW1CQSxDQUFDO1lBQ2xCRyxNQUFNO1lBQ05DLE1BQU07WUFDTkMsYUFBYSxDQUFDO1lBQ2QsTUFBTUMsV0FBVUQsV0FBVyxFQUFFRSxHQUFHLEVBQUU7Z0JBQ2hDLE1BQU0sRUFBRUMsTUFBSyxFQUFFQyxTQUFRLEVBQUUsR0FBR0o7Z0JBSzVCLFlBQVk7Z0JBQ1osa0RBQWtEO2dCQUNsRCxXQUFXO2dCQUNYLHlDQUF5QztnQkFDekMsb0NBQW9DO2dCQUNwQyxRQUFRO2dCQUNSLHVCQUF1QjtnQkFDdkIsMEJBQTBCO2dCQUMxQixtQkFBbUI7Z0JBQ25CLHdCQUF3QjtnQkFDeEIsd0JBQXdCO2dCQUN4Qiw4QkFBOEI7Z0JBQzlCLDBCQUEwQjtnQkFDMUIsU0FBUztnQkFDVCx3QkFBd0I7Z0JBQ3hCLElBQUk7Z0JBRUosc0JBQXNCO2dCQUV0QixNQUFNSyxNQUFNLE1BQU1DLE1BQU1DLCtDQUF1QixHQUFHLGVBQWU7b0JBQy9ERyxRQUFRO29CQUNSQyxTQUFTO3dCQUNQLGdCQUFnQjtvQkFDbEI7b0JBQ0FDLE1BQU1DLEtBQUtDLFNBQVMsQ0FBQzt3QkFBRVg7d0JBQU9DO29CQUFTO2dCQUN6QztnQkFDQSxJQUFJQyxJQUFJVSxNQUFNLEtBQUssS0FBSyxPQUFPLElBQUk7Z0JBQ25DLE1BQU0sRUFBRUMsTUFBSyxFQUFFLEdBQUcsTUFBTVgsSUFBSVksSUFBSTtnQkFFaEMsTUFBTUMsV0FBVyxNQUFNWixNQUFNQywrQ0FBdUIsR0FBRyxVQUFVO29CQUMvREcsUUFBUTtvQkFDUkMsU0FBUzt3QkFDUCxnQkFBZ0I7d0JBQ2hCUSxlQUFlLENBQUMsT0FBTyxFQUFFSCxNQUFNLENBQUM7b0JBQ2xDO2dCQUNGO2dCQUNBLElBQUlFLFNBQVNILE1BQU0sS0FBSyxLQUFLLE9BQU8sSUFBSTtnQkFDeEMsTUFBTUssT0FBTyxNQUFNRixTQUFTRCxJQUFJO2dCQUNoQ0csS0FBS0MsV0FBVyxHQUFHTDtnQkFDbkIsSUFBSVgsSUFBSWlCLEVBQUUsSUFBSUYsTUFBTTtvQkFDbEIsT0FBT0E7Z0JBQ1QsT0FBTyxPQUFPLElBQUk7WUFDcEI7UUFDRjtLQUNEO0lBQ0RHLFNBQVM7UUFDUEMsVUFBVTtJQUNaO0lBQ0FDLE9BQU87UUFDTEMsUUFBUTtJQUNWO0lBQ0FDLFdBQVc7UUFDVCxNQUFNQyxLQUFJLEVBQUVaLE1BQUssRUFBRUksS0FBSSxFQUFFLEVBQUU7WUFDekIsT0FBTztnQkFBRSxHQUFHSixLQUFLO2dCQUFFLEdBQUdJLElBQUk7WUFBQztRQUM3QjtRQUNBLE1BQU1HLFNBQVEsRUFBRUEsUUFBTyxFQUFFSCxLQUFJLEVBQUVKLE1BQUssRUFBRSxFQUFFO1lBQ3RDTyxRQUFRSCxJQUFJLEdBQUdKO1lBQ2YsT0FBT087UUFDVDtJQUNGO0FBQ0YsRUFBRTtBQUVGLGlFQUFlN0IsZ0RBQVFBLENBQUNFLFlBQVlBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9za3lsYWItcGFuZWwvLi9zcmMvcGFnZXMvYXBpL2F1dGgvWy4uLm5leHRhdXRoXS50c3g/ZWEyYSJdLCJzb3VyY2VzQ29udGVudCI6WyIgaW1wb3J0IE5leHRBdXRoLCB7IE5leHRBdXRoT3B0aW9ucyB9IGZyb20gJ25leHQtYXV0aCc7XHJcbmltcG9ydCBDcmVkZW50aWFsc1Byb3ZpZGVyIGZyb20gJ25leHQtYXV0aC9wcm92aWRlcnMvY3JlZGVudGlhbHMnO1xyXG5cclxuZXhwb3J0IGNvbnN0IGF1dGhPcHRpb25zOiBOZXh0QXV0aE9wdGlvbnMgPSB7XHJcbiAgcHJvdmlkZXJzOiBbXHJcbiAgICBDcmVkZW50aWFsc1Byb3ZpZGVyKHtcclxuICAgICAgdHlwZTogJ2NyZWRlbnRpYWxzJyxcclxuICAgICAgbmFtZTogJ0NyZWRlbnRpYWxzJyxcclxuICAgICAgY3JlZGVudGlhbHM6IHt9LFxyXG4gICAgICBhc3luYyBhdXRob3JpemUoY3JlZGVudGlhbHMsIHJlcSkge1xyXG4gICAgICAgIGNvbnN0IHsgZW1haWwsIHBhc3N3b3JkIH0gPSBjcmVkZW50aWFscyBhcyB7XHJcbiAgICAgICAgICBlbWFpbDogc3RyaW5nO1xyXG4gICAgICAgICAgcGFzc3dvcmQ6IHN0cmluZztcclxuICAgICAgICB9O1xyXG5cclxuICAgICAgICAvLyBhZG1pblVzZXJcclxuICAgICAgICAvLyBpZiAocHJvY2Vzcy5lbnYuTkVYVEFVVEhfU0VDUkVUID09PSBcImFzZGFzZFwiKSB7XHJcbiAgICAgICAgLy8gICAgIGlmIChcclxuICAgICAgICAvLyAgICAgICAgIGVtYWlsICE9PSBcImFkbWluQGFkbWluLmNvbVwiIHx8XHJcbiAgICAgICAgLy8gICAgICAgICBwYXNzd29yZCAhPT0gXCJhZG1pbmFkbWluXCJcclxuICAgICAgICAvLyAgICAgKVxyXG4gICAgICAgIC8vICAgICAgICAgcmV0dXJuIG51bGw7XHJcbiAgICAgICAgLy8gICAgIGNvbnN0IHVzZXJEdW1teSA9IHtcclxuICAgICAgICAvLyAgICAgICAgIGlkOiBcIjFcIixcclxuICAgICAgICAvLyAgICAgICAgIG5hbWU6IFwiZG9ndVwiLFxyXG4gICAgICAgIC8vICAgICAgICAgZW1haWw6IGVtYWlsLFxyXG4gICAgICAgIC8vICAgICAgICAgcGFzc3dvcmQ6IHBhc3N3b3JkLFxyXG4gICAgICAgIC8vICAgICAgICAgdGVhbTogXCJXRUJMQUJcIixcclxuICAgICAgICAvLyAgICAgfTtcclxuICAgICAgICAvLyAgICAgcmV0dXJuIHVzZXJEdW1teTtcclxuICAgICAgICAvLyB9XHJcblxyXG4gICAgICAgIC8vIGxvZ2luIHVybCBmcm9tIC5lbnZcclxuXHJcbiAgICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2gocHJvY2Vzcy5lbnYuQkFDS0VORF9VUkwgKyAnL2F1dGgvbG9naW4nLCB7XHJcbiAgICAgICAgICBtZXRob2Q6ICdQT1NUJyxcclxuICAgICAgICAgIGhlYWRlcnM6IHtcclxuICAgICAgICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyxcclxuICAgICAgICAgIH0sXHJcbiAgICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IGVtYWlsLCBwYXNzd29yZCB9KSxcclxuICAgICAgICB9KTtcclxuICAgICAgICBpZiAocmVzLnN0YXR1cyAhPT0gMjAxKSByZXR1cm4gbnVsbDtcclxuICAgICAgICBjb25zdCB7IHRva2VuIH0gPSBhd2FpdCByZXMuanNvbigpO1xyXG5cclxuICAgICAgICBjb25zdCB1c2VyRGF0YSA9IGF3YWl0IGZldGNoKHByb2Nlc3MuZW52LkJBQ0tFTkRfVVJMICsgJy91c2VycycsIHtcclxuICAgICAgICAgIG1ldGhvZDogJ0dFVCcsXHJcbiAgICAgICAgICBoZWFkZXJzOiB7XHJcbiAgICAgICAgICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsXHJcbiAgICAgICAgICAgIEF1dGhvcml6YXRpb246IGBCZWFyZXIgJHt0b2tlbn1gLFxyXG4gICAgICAgICAgfSxcclxuICAgICAgICB9KTtcclxuICAgICAgICBpZiAodXNlckRhdGEuc3RhdHVzICE9PSAyMDApIHJldHVybiBudWxsO1xyXG4gICAgICAgIGNvbnN0IHVzZXIgPSBhd2FpdCB1c2VyRGF0YS5qc29uKCk7XHJcbiAgICAgICAgdXNlci5hY2Nlc3NUb2tlbiA9IHRva2VuO1xyXG4gICAgICAgIGlmIChyZXMub2sgJiYgdXNlcikge1xyXG4gICAgICAgICAgcmV0dXJuIHVzZXI7XHJcbiAgICAgICAgfSBlbHNlIHJldHVybiBudWxsO1xyXG4gICAgICB9LFxyXG4gICAgfSksXHJcbiAgXSxcclxuICBzZXNzaW9uOiB7XHJcbiAgICBzdHJhdGVneTogJ2p3dCcsXHJcbiAgfSxcclxuICBwYWdlczoge1xyXG4gICAgc2lnbkluOiAnL2xvZ2luJyxcclxuICB9LFxyXG4gIGNhbGxiYWNrczoge1xyXG4gICAgYXN5bmMgand0KHsgdG9rZW4sIHVzZXIgfSkge1xyXG4gICAgICByZXR1cm4geyAuLi50b2tlbiwgLi4udXNlciB9O1xyXG4gICAgfSxcclxuICAgIGFzeW5jIHNlc3Npb24oeyBzZXNzaW9uLCB1c2VyLCB0b2tlbiB9KSB7XHJcbiAgICAgIHNlc3Npb24udXNlciA9IHRva2VuO1xyXG4gICAgICByZXR1cm4gc2Vzc2lvbjtcclxuICAgIH0sXHJcbiAgfSxcclxufTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IE5leHRBdXRoKGF1dGhPcHRpb25zKTsgXHJcbiJdLCJuYW1lcyI6WyJOZXh0QXV0aCIsIkNyZWRlbnRpYWxzUHJvdmlkZXIiLCJhdXRoT3B0aW9ucyIsInByb3ZpZGVycyIsInR5cGUiLCJuYW1lIiwiY3JlZGVudGlhbHMiLCJhdXRob3JpemUiLCJyZXEiLCJlbWFpbCIsInBhc3N3b3JkIiwicmVzIiwiZmV0Y2giLCJwcm9jZXNzIiwiZW52IiwiQkFDS0VORF9VUkwiLCJtZXRob2QiLCJoZWFkZXJzIiwiYm9keSIsIkpTT04iLCJzdHJpbmdpZnkiLCJzdGF0dXMiLCJ0b2tlbiIsImpzb24iLCJ1c2VyRGF0YSIsIkF1dGhvcml6YXRpb24iLCJ1c2VyIiwiYWNjZXNzVG9rZW4iLCJvayIsInNlc3Npb24iLCJzdHJhdGVneSIsInBhZ2VzIiwic2lnbkluIiwiY2FsbGJhY2tzIiwiand0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./src/pages/api/auth/[...nextauth].tsx\n");
 
 /***/ })
 
@@ -110,7 +50,7 @@ const authOptions = {
 var __webpack_require__ = require("../../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(5996));
+var __webpack_exports__ = (__webpack_exec__("(api)/./src/pages/api/auth/[...nextauth].tsx"));
 module.exports = __webpack_exports__;
 
 })();

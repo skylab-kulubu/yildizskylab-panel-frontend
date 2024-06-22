@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/add/page",{
+
+/***/ "(app-client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=C%3A%5CUsers%5Cemreu%5CDocuments%5CGitHub%5Cyildizskylab-panel-frontend%5Csrc%5Cui%5CPageTitle%5CPageTitle.css&modules=C%3A%5CUsers%5Cemreu%5CDocuments%5CGitHub%5Cyildizskylab-panel-frontend%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Clink.js&server=false!":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=C%3A%5CUsers%5Cemreu%5CDocuments%5CGitHub%5Cyildizskylab-panel-frontend%5Csrc%5Cui%5CPageTitle%5CPageTitle.css&modules=C%3A%5CUsers%5Cemreu%5CDocuments%5CGitHub%5Cyildizskylab-panel-frontend%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Clink.js&server=false! ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("(() => __webpack_require__.e(/*! import() */ \"_app-client_src_ui_PageTitle_PageTitle_css\").then(__webpack_require__.bind(__webpack_require__, /*! ./src/ui/PageTitle/PageTitle.css */ \"(app-client)/./src/ui/PageTitle/PageTitle.css\")));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/link.js */ \"(app-client)/./node_modules/next/dist/client/link.js\", 23))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1jbGllbnQpLy4vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9idWlsZC93ZWJwYWNrL2xvYWRlcnMvbmV4dC1mbGlnaHQtY2xpZW50LWVudHJ5LWxvYWRlci5qcz9tb2R1bGVzPUMlM0ElNUNVc2VycyU1Q2VtcmV1JTVDRG9jdW1lbnRzJTVDR2l0SHViJTVDeWlsZGl6c2t5bGFiLXBhbmVsLWZyb250ZW5kJTVDc3JjJTVDdWklNUNQYWdlVGl0bGUlNUNQYWdlVGl0bGUuY3NzJm1vZHVsZXM9QyUzQSU1Q1VzZXJzJTVDZW1yZXUlNUNEb2N1bWVudHMlNUNHaXRIdWIlNUN5aWxkaXpza3lsYWItcGFuZWwtZnJvbnRlbmQlNUNub2RlX21vZHVsZXMlNUNuZXh0JTVDZGlzdCU1Q2NsaWVudCU1Q2xpbmsuanMmc2VydmVyPWZhbHNlIS5qcyIsIm1hcHBpbmdzIjoiQUFBQSxPQUFPLGdPQUF1STtBQUM5SSIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvP2MyN2EiXSwic291cmNlc0NvbnRlbnQiOlsiKCgpID0+IGltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJsYXp5XCIgKi8gXCJDOlxcXFxVc2Vyc1xcXFxlbXJldVxcXFxEb2N1bWVudHNcXFxcR2l0SHViXFxcXHlpbGRpenNreWxhYi1wYW5lbC1mcm9udGVuZFxcXFxzcmNcXFxcdWlcXFxcUGFnZVRpdGxlXFxcXFBhZ2VUaXRsZS5jc3NcIikpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCJDOlxcXFxVc2Vyc1xcXFxlbXJldVxcXFxEb2N1bWVudHNcXFxcR2l0SHViXFxcXHlpbGRpenNreWxhYi1wYW5lbC1mcm9udGVuZFxcXFxub2RlX21vZHVsZXNcXFxcbmV4dFxcXFxkaXN0XFxcXGNsaWVudFxcXFxsaW5rLmpzXCIpIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=C%3A%5CUsers%5Cemreu%5CDocuments%5CGitHub%5Cyildizskylab-panel-frontend%5Csrc%5Cui%5CPageTitle%5CPageTitle.css&modules=C%3A%5CUsers%5Cemreu%5CDocuments%5CGitHub%5Cyildizskylab-panel-frontend%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Clink.js&server=false!\n"));
+
+/***/ })
+
+});

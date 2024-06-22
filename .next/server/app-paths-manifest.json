@@ -1,22 +1,5 @@
 {
-  "/add/event/page": "app/add/event/page.js",
-  "/add/page": "app/add/page.js",
-  "/add/project/page": "app/add/project/page.js",
-  "/add/team/page": "app/add/team/page.js",
-  "/applications/[applicationId]/page": "app/applications/[applicationId]/page.js",
-  "/applications/page": "app/applications/page.js",
-  "/apply/page": "app/apply/page.js",
-  "/apply_team/page": "app/apply_team/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/events/[eventId]/page": "app/events/[eventId]/page.js",
-  "/login/page": "app/login/page.js",
-  "/members/[memberId]/page": "app/members/[memberId]/page.js",
+  "/teams/page": "app/teams/page.js",
   "/members/page": "app/members/page.js",
-  "/events/page": "app/events/page.js",
-  "/projects/page": "app/projects/page.js",
-  "/page": "app/page.js",
-  "/projects/[projectId]/page": "app/projects/[projectId]/page.js",
-  "/register/page": "app/register/page.js",
-  "/teams/[teamId]/page": "app/teams/[teamId]/page.js",
-  "/teams/page": "app/teams/page.js"
+  "/add/team/page": "app/add/team/page.js"
 }
