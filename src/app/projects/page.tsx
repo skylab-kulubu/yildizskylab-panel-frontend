@@ -1,27 +1,49 @@
-"use client";
-import PageTitle from "@/ui/PageTitle/PageTitle";
-import ProjectsListItem from "@/ui/ProjectsListItem/ProjectsListItem";
-import { useEffect, useState } from "react";
-import { useSession } from "next-auth/react";
-import { Project } from "../types/types";
+'use client';
+import PageTitle from '@/ui/PageTitle/PageTitle';
+import ProjectsListItem from '@/ui/ProjectsListItem/ProjectsListItem';
+import { useEffect, useState } from 'react';
+import { useSession } from 'next-auth/react';
+import axios from 'axios';
+import { Project } from '../types/types';
 
 export default function Projects() {
     const { data: session } = useSession();
     const [projects, setProjects] = useState<Project[]>([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+
     useEffect(() => {
-        const res = fetch(process.env.BACKEND_URL + "/projects/all", {
-            method: "GET",
-            headers: {
-                "Content-Type": "application/json",
-                Authorization: `Bearer ${session?.user?.accessToken}`,
-            },
-        })
-            .then((res) => res.json())
-            .then((data) => {
-                setProjects(data);
-                console.log(data);
-            });
+        
+            try {
+                const res =  axios({
+                    method: 'GET',
+                    url: 'https://yildizskylab-test.onrender.com/api/v1/projects',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        // Authorization: `Bearer ${session?.user?.accessToken}`,
+                    },
+                })
+                .then((res) => res.data.data)
+                .then((data) => {
+                  setProjects(data);
+                });
+            } catch (err) {
+                setError(err);
+            } finally {
+                setLoading(false);
+            }
+        
+
+        
     }, []);
+
+    if (loading) {
+        return <div>Loading...</div>;
+    }
+
+    if (error) {
+        return <div>Error fetching projects: {error.message}</div>;
+    }
 
     return (
         <>

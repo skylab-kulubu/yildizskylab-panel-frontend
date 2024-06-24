@@ -17,7 +17,7 @@ export default function Members() {
   useEffect(() => {
     const res = axios({
       method: 'GET',
-      url: process.env.NEXT_PUBLIC_BASE_URL + '/users/',
+      url: 'https://yildizskylab-test.onrender.com/api/v1/users/',
       headers: {
         'Content-Type': 'application/json',
         // Authorization: `Bearer ${session?.user?.accessToken}`,

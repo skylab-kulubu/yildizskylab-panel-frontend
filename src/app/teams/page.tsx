@@ -6,6 +6,7 @@ import { useScrollPosition } from '@/hooks/useScrollPosition';
 import { Team } from '../types/types';
 import TeamGridItem from '@/ui/TeamGridItem/TeamGridItem';
 import { useSession } from 'next-auth/react';
+import axios from 'axios';
 
 export default function Teams() {
   const [activeTab, setActiveTab] = useState<'arge' | 'sosyal'>('arge');
@@ -22,17 +23,20 @@ export default function Teams() {
   }, [scrollPosition]);
 
   useEffect(() => {
-    const res = fetch(process.env.NEXT_PUBLIC_BASE_URL + '/teams/', {
+    const res = axios({
       method: 'GET',
+      url: 'https://yildizskylab-test.onrender.com/api/v1/teams/',
       headers: {
         'Content-Type': 'application/json',
         // Authorization: `Bearer ${session?.user?.accessToken}`,
       },
     })
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setTeams(data.teams);
+      .then(response => {
+        console.log(response.data); // Log the complete response data
+        setTeams(response.data.teams);  // Assuming the API returns teams under a "teams" property
+      })
+      .catch(error => {
+        console.error('Error fetching team data:', error);
       });
   }, []);
 
@@ -104,13 +108,20 @@ export default function Teams() {
         </div>
       ) : (
         <div className='grid grid-cols-2 sm:grid-cols-3 mb-10 gap-8 items-center justify-center w-[80%] sm:w-[60%] mx-auto sm:pt-8 '>
-          <TeamGridItem team={sosTeam} />
-          <TeamGridItem team={sosTeam} />
-          <TeamGridItem team={sosTeam} />
-          <TeamGridItem team={sosTeam} />
-          <TeamGridItem team={sosTeam} />
-          <TeamGridItem team={sosTeam} />
-          <TeamGridItem team={sosTeam} />
+          {teams.length > 0 ? (
+            teams.map((team, index) => <TeamGridItem key={index} team={team} />)
+          ) : (
+            <div className='text-customDarkPurple text-xl font-bebas text-center'>
+              Henüz ekibiniz yok
+              <div className='text-customLightPink text-xl font-bebas'>
+                Ekibinizi oluşturmak için
+                <a href='/add/team' className='text-customAccent font-bebas'>
+                  {' '}
+                  tıklayın
+                </a>
+              </div>
+            </div>
+          )}
         </div>
       )}
     </>
