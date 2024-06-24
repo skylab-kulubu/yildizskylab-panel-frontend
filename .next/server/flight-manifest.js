@@ -78,32 +78,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/projects/page:app/projects/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/projects/page:app/projects/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/projects/page:app/projects/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/providers.tsx": {
       "": {
         "id": "(sc_client)/./src/app/providers.tsx",
@@ -234,58 +208,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/app/events/page.tsx": {
-      "": {
-        "id": "(sc_client)/./src/app/events/page.tsx",
-        "name": "",
-        "chunks": [
-          "app/events/page:app/events/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/app/events/page.tsx",
-        "name": "*",
-        "chunks": [
-          "app/events/page:app/events/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/events/page.tsx",
-        "name": "default",
-        "chunks": [
-          "app/events/page:app/events/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/members/page.tsx": {
-      "": {
-        "id": "(sc_client)/./src/app/members/page.tsx",
-        "name": "",
-        "chunks": [
-          "app/members/page:app/members/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/app/members/page.tsx",
-        "name": "*",
-        "chunks": [
-          "app/members/page:app/members/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/members/page.tsx",
-        "name": "default",
-        "chunks": [
-          "app/members/page:app/members/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./src/assets/images/pink_logo.png": {
       "": {
         "id": "(sc_client)/./src/assets/images/pink_logo.png",
@@ -338,28 +260,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/app/projects/page.tsx": {
+    "(app-client)/./src/app/members/page.tsx": {
       "": {
-        "id": "(sc_client)/./src/app/projects/page.tsx",
+        "id": "(sc_client)/./src/app/members/page.tsx",
         "name": "",
         "chunks": [
-          "app/projects/page:app/projects/page"
+          "app/members/page:app/members/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./src/app/projects/page.tsx",
+        "id": "(sc_client)/./src/app/members/page.tsx",
         "name": "*",
         "chunks": [
-          "app/projects/page:app/projects/page"
+          "app/members/page:app/members/page"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/projects/page.tsx",
+        "id": "(sc_client)/./src/app/members/page.tsx",
         "name": "default",
         "chunks": [
-          "app/projects/page:app/projects/page"
+          "app/members/page:app/members/page"
         ],
         "async": false
       }
@@ -389,6 +311,32 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./src/app/projects/page.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/projects/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/projects/page:app/projects/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/projects/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/projects/page:app/projects/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/projects/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/projects/page:app/projects/page"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -397,20 +345,14 @@ self.__RSC_MANIFEST={
       "static/css/_app-client_src_app_globals_css.css",
       "static/css/app/layout.css"
     ],
-    "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\events\\page": [
-      "static/css/app/events/page.css"
+    "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\teams\\page": [
+      "static/css/app/teams/page.css"
     ],
     "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\members\\page": [
       "static/css/app/members/page.css"
     ],
-    "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\teams\\page": [
-      "static/css/app/teams/page.css"
-    ],
     "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\projects\\page": [
       "static/css/app/projects/page.css"
-    ],
-    "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\add\\page": [
-      "static/css/_app-client_src_ui_PageTitle_PageTitle_css.css"
     ]
   },
   "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\page.tsx": {
@@ -496,32 +438,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\node_modules\\next\\dist\\client\\link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/projects/page:app/projects/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/projects/page:app/projects/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/projects/page:app/projects/page"
       ],
       "async": false
     }
@@ -661,64 +577,10 @@ self.__RSC_MANIFEST={
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/events/page.css",
-        "static/css/app/members/page.css",
         "static/css/app/teams/page.css",
-        "static/css/app/projects/page.css",
-        "static/css/_app-client_src_ui_PageTitle_PageTitle_css.css"
+        "static/css/app/members/page.css",
+        "static/css/app/projects/page.css"
       ]
-    }
-  },
-  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\events\\page.tsx": {
-    "": {
-      "id": "(app-client)/./src/app/events/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/events/page:app/events/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/app/events/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/events/page:app/events/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./src/app/events/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/events/page:app/events/page"
-      ],
-      "async": false
-    }
-  },
-  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\members\\page.tsx": {
-    "": {
-      "id": "(app-client)/./src/app/members/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/members/page:app/members/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/app/members/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/members/page:app/members/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./src/app/members/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/members/page:app/members/page"
-      ],
-      "async": false
     }
   },
   "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\ui\\TeamGridItem\\TeamGridItem.modules.css": {
@@ -782,28 +644,28 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\projects\\page.tsx": {
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\members\\page.tsx": {
     "": {
-      "id": "(app-client)/./src/app/projects/page.tsx",
+      "id": "(app-client)/./src/app/members/page.tsx",
       "name": "",
       "chunks": [
-        "app/projects/page:app/projects/page"
+        "app/members/page:app/members/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./src/app/projects/page.tsx",
+      "id": "(app-client)/./src/app/members/page.tsx",
       "name": "*",
       "chunks": [
-        "app/projects/page:app/projects/page"
+        "app/members/page:app/members/page"
       ],
       "async": false
     },
     "default": {
-      "id": "(app-client)/./src/app/projects/page.tsx",
+      "id": "(app-client)/./src/app/members/page.tsx",
       "name": "default",
       "chunks": [
-        "app/projects/page:app/projects/page"
+        "app/members/page:app/members/page"
       ],
       "async": false
     }
@@ -830,6 +692,32 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/add/team/page:app/add/team/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\emreu\\Documents\\GitHub\\yildizskylab-panel-frontend\\src\\app\\projects\\page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/projects/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/projects/page:app/projects/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/projects/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/projects/page:app/projects/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/projects/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/projects/page:app/projects/page"
       ],
       "async": false
     }

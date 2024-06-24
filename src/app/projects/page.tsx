@@ -3,6 +3,7 @@ import PageTitle from '@/ui/PageTitle/PageTitle';
 import ProjectsListItem from '@/ui/ProjectsListItem/ProjectsListItem';
 import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
+import axios from 'axios';
 import { Project } from '../types/types';
 
 export default function Projects() {
@@ -12,30 +13,29 @@ export default function Projects() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        const fetchProjects = async () => {
+        
             try {
-                const res = await fetch('https://yildizskylab-test.onrender.com/api/v1/projects', {
+                const res =  axios({
                     method: 'GET',
+                    url: 'https://yildizskylab-test.onrender.com/api/v1/projects',
                     headers: {
                         'Content-Type': 'application/json',
-                        // Uncomment and use the authorization header if needed
                         // Authorization: `Bearer ${session?.user?.accessToken}`,
                     },
+                })
+                .then((res) => res.data.data)
+                .then((data) => {
+                  setProjects(data);
                 });
-                if (!res.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                const data = await res.json();
-                setProjects(data.data);
             } catch (err) {
                 setError(err);
             } finally {
                 setLoading(false);
             }
-        };
+        
 
-        fetchProjects();
-    }, [session]);
+        
+    }, []);
 
     if (loading) {
         return <div>Loading...</div>;
